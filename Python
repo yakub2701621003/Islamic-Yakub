@@ -1,0 +1,55 @@
+# jarvis_bot.py
+import requests
+from flask import Flask, request, jsonify
+from datetime import datetime
+
+app = Flask(__name__)
+
+ACCESS_TOKEN = "তোমার_ফেসবুক_পেজ_এক্সেস_টোকেন"
+VERIFY_TOKEN = "যে_টোকেন_তুমি_ফেসবুক_দিয়ে_চেক করবে"
+
+def send_message(recipient_id, message_text):
+    url = f"https://graph.facebook.com/v15.0/me/messages?access_token={ACCESS_TOKEN}"
+    payload = {
+        "recipient": {"id": recipient_id},
+        "message": {"text": message_text}
+    }
+    response = requests.post(url, json=payload)
+    return response.json()
+
+def jarvis_response(message_text):
+    message_text = message_text.lower()
+    
+    if "হ্যালো" in message_text or "hello" in message_text:
+        return "ওহো! স্বাগতম, বস 😎 আমি Jarvis।"
+    elif "কেমন আছো" in message_text:
+        return "সব ঠিক আছে! তুমি কেমন আছো?"
+    elif "তোমার নাম কি" in message_text:
+        return "আমি Jarvis, তোমার ডিজিটাল সহকারী।"
+    elif "সময় কত" in message_text or "time" in message_text:
+        now = datetime.now().strftime("%I:%M %p")
+        return f"বস, সময় এখন {now}।"
+    elif "ধন্যবাদ" in message_text or "thank you" in message_text:
+        return "সব সময়ই প্রস্তুত, বস।"
+    else:
+        return "ঠিক আছে, বস। আমি সেটা মনে রাখছি।"
+
+@app.route("/webhook", methods=["GET", "POST"])
+def webhook():
+    if request.method == "GET":
+        token_sent = request.args.get("hub.verify_token")
+        return request.args.get("hub.challenge") if token_sent == VERIFY_TOKEN else "Invalid verification token"
+    
+    if request.method == "POST":
+        data = request.get_json()
+        for entry in data.get("entry", []):
+            for messaging_event in entry.get("messaging", []):
+                sender_id = messaging_event["sender"]["id"]
+                if "message" in messaging_event and "text" in messaging_event["message"]:
+                    message_text = messaging_event["message"]["text"]
+                    response_text = jarvis_response(message_text)
+                    send_message(sender_id, response_text)
+        return "ok", 200
+
+if __name__ == "__main__":
+    app.run(port=5000)
