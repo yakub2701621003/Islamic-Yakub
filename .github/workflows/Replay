@@ -1,0 +1,6 @@
+if "message" in messaging_event:
+    message_text = messaging_event["message"].get("text", "")
+    if message_text.strip() == "":  # যদি শুধুমাত্র emoji বা খালি পাঠানো হয়
+        message_text = "emoji"  # বোঝার জন্য placeholder
+    replies = jarvis_response(sender_id, message_text)
+    send_sequence(sender_id, replies)
