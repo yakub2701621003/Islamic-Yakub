@@ -1,10 +1,9 @@
----------
-
+----------
 ###  —͟͟͞͞𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️
 ❖ **`A Massanger  Multi Device Bot To Take Your Massanger To Another Level !`** ❖
 
 ----------
-## CLICK <a href="https://github.com/cyber-ullash/CYBER-BOT-COMMUNITY/issues">HERE IF YOU ARE NEW TO BOTS</a>
+## CLICK <a href="https://www.youtube.com/@Cyberbotcommunity">HERE IF YOU ARE NEW TO BOTS (YOUTUBE)</a>
 
 
 <img src='https://i.imgur.com/ePDUcck.jpeg'/>
@@ -99,7 +98,8 @@ jobs:
 
 ---------
 
-<a href="https://m.me/j/AbbgQN_Pv6yXppYl/"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ᴍᴀssᴀɴ%20ɢʀᴏᴜᴘ-red" alt="🔰 ᴍᴀssᴀɴ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
+<a href="https://m.me/j/AbbgQN_Pv6yXppYl/">
+<img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ᴍᴀssᴀɴ%20ɢʀᴏᴜᴘ-red" alt="🔰 ᴍᴀssᴀɴ ɢʀᴏᴜᴘ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
 
 -----------
 
@@ -107,10 +107,10 @@ jobs:
 
 ----------
 ## CREATE TALDROVE ACCOUNT
-<a href="https://host.talkdrove.com/auth/signup?ref=9535F15A"><img src="https://img.shields.io/badge/%F0%9F%8E%89%20HOST.TALKDROVE%20FREE%20ACCOUNT%20HERE-blue" alt="hosttaldrove" width="300"></a>
------------
+<a href="https://host.talkdrove.com/auth/signup?ref=9535F15A">
+<img src="https://img.shields.io/badge/%F0%9F%8E%89%20HOST.TALKDROVE%20FREE%20ACCOUNT%20HERE-blue" alt="hosttaldrove" width="300"></a><br>
 
-src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ʏᴏᴜᴛᴜʙᴇ%20ᴄʜᴀɴɴᴇʟ-blue" alt="🔰 ᴊᴏɪɴ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></a>
+<img src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ʏᴏᴜᴛᴜʙᴇ%20ᴄʜᴀɴɴᴇʟ-blue" alt="🔰 ᴊᴏɪɴ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇ 🔰" width="300"></img>
 
 --------------
  
@@ -130,7 +130,8 @@ src="https://img.shields.io/badge/%F0%9F%8E%89%20ᴊᴏɪɴ%20ᴏᴜʀ%20ʏᴏ�
 
 -------------
 
-<p align="left"><a href="https://repl.it/https://github.com/cyber-ullash/CYBER-BOT-COMMUNITY"> <img src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<p align="left"><a href="https://repl.it/https://github.com/cyber-ullash/CYBER-BOT-COMMUNITY"> 
+<img src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 --------------
 
