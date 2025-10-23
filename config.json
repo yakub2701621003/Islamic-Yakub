@@ -6,6 +6,7 @@
     "notiGroup": true,
     "NOTIFICATION": true,
     "allowInbox": false,
+    "allowGroup": true,
     "autoClean": true,
     "commandDisabled": [
         "sim.js"
@@ -16,11 +17,11 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️",
+    "BOTNAME": "𝐇𝐈 𝐍𝐀 𝐓𝐀 ☢️_𖣘 -𝐁𝐎𝐓 𝗕𝗬 𝒀𝑨𝑲𝑼𝑩 𝑩𝑶𝑺⚠️",
     "PREFIX": "/",
     "ADMINBOT": [
-        "100000478146113",
-        "61576520552554",
+        "61574007381785",
+        "61556141552329",
         "61550035211214"
     ],
     "NDH": [
@@ -237,3 +238,4 @@
         "delayUnsend": 20
     }
 }
+    
